@@ -1,0 +1,120 @@
+Call `latexmk report1.tex'
+Latexmk: This is Latexmk, John Collins, 24 February 2016, version: 4.44.
+Latexmk: applying rule 'latex'...
+Rule 'latex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'report1.tex'
+------------
+Run number 1 of rule 'latex'
+------------
+------------
+Running 'platex -kanji=utf8 -guess-input-enc -synctex=1 -interaction=nonstopmode "report1.tex"'
+------------
+platex: unrecognized option '-guess-input-enc'
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex)
+ restricted \write18 enabled.
+entering extended mode
+(./report1.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2016/03/31> patch level 0)
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jsize12.clo))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg))
+(./report1.aux) [1] <fig/model.jpg> [2] [3] (./report1.aux) )
+Output written on report1.dvi (3 pages, 6688 bytes).
+SyncTeX written on report1.synctex.gz.
+Transcript written on report1.log.
+Latexmk: fls file doesn't appear to have been made
+Latexmk: Log file says output to 'report1.dvi'
+Latexmk: applying rule 'latex'...
+Rule 'latex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'report1.aux'
+------------
+Run number 2 of rule 'latex'
+------------
+------------
+Running 'platex -kanji=utf8 -guess-input-enc -synctex=1 -interaction=nonstopmode "report1.tex"'
+------------
+platex: unrecognized option '-guess-input-enc'
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex)
+ restricted \write18 enabled.
+entering extended mode
+(./report1.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2016/03/31> patch level 0)
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jsize12.clo))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg))
+(./report1.aux) [1] <fig/model.jpg> [2] [3] (./report1.aux) )
+Output written on report1.dvi (3 pages, 6688 bytes).
+SyncTeX written on report1.synctex.gz.
+Transcript written on report1.log.
+Latexmk: fls file doesn't appear to have been made
+Latexmk: Log file says output to 'report1.dvi'
+Latexmk: applying rule 'dvipdf'...
+Rule 'dvipdf': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'report1.dvi'
+------------
+Run number 1 of rule 'dvipdf'
+------------
+For rule 'dvipdf', running '&do_viewfile(  )' ...
+------------
+Running 'dvipdfmx -f ptex-ipaex.map "report1.dvi"'
+------------
+report1.dvi -> report1.pdf
+[1][2][3]
+74216 bytes written
+Latexmk: All targets (report1.dvi report1.pdf) are up-to-date
+ 
+typeset finished at Sat Jul  9 13:58:44 (0.65 secs)
+
