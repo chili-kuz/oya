@@ -35,6 +35,9 @@
 \makeatother
 % 
 
+%Listingnameの定義
+\def\lstlistingname{Program}
+%
 \title{車両制御特論 \\
 レポート1\\
 }
@@ -61,7 +64,7 @@
 学籍番号より決定した解析するシステムは
 \begin{eqnarray}\label{equ:sys}
  \begin{cases}
-  \dot{x}(t) = -4x(t) + 6u_{4}(t)  \\
+  \dot{x}(t) = -4x(t) + 6u_{4}(t) \ , \  x(0) = -5 \\
   u_{4}(t) = -2-\sin t &
  \end{cases}
 \end{eqnarray}
@@ -102,7 +105,7 @@
 \section{Simulink，MATLABのプログラム}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 (\ref{equ:sys})式で示されるシステムをSimulinkのモデルを図\ref{fig:model}に，MATLABのプログラ
-ムをListing 1.に示す．
+ムをProgram 1.に示す．
 %
 \begin{figure}[hbp]
  \begin{center}
@@ -126,22 +129,56 @@ ylabel('y');
 plot(t,y)   
 \end{lstlisting}
 
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \section{得られた応答}
 %%%%%%%%%%%%%%%%%%%%%%%%
 %
-得られた応答波形を図\ref{fig:text2}に示す．
+得られた応答波形を図\ref{fig:output}にそれぞれ示す．また，解析解をプロッ
+トしたもの，シミュレーション結果を同時にプロット
+したものを図\ref{fig:text2}に示す．
+%
+\begin{figure}[htbp]
+  \begin{center} 
+   \subfigure[解析解をプロットしたもの]{
+   \includegraphics[scale=.4]{fig/oya1.eps}  
+     \label{fig:kaiseki}
+  }
+  %
+  \hfill
+  %
+  \subfigure[Matlab/Simulinkでシミュレーションした結果]{
+   \includegraphics[scale=.4]{fig/oya2.eps}
+   \label{fig:simu}
+  }
+  \end{center}
+  \caption{得られた応答}
+  \label{fig:output}
+\end{figure}
+%
 \begin{figure}[hbp]
  \begin{center}
   \includegraphics[width = 150 mm]{fig/text2.eps}
  \end{center}
- \caption{MATLABによるシミュレーション結果と解析解のプロットとの比較}
+ \caption{Matlab/Simulinkによるシミュレーション結果と解析解のプロットとの比較}
  \label{fig:text2}
 \end{figure}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%
 \section{考察}
 %%%%%%%%%%%%%%%%%%%%%%%%
-特になし．
+図\ref{fig:text2}を見ると，二つの波形いずれも定常応答において$x(t)=-3$を中心
+として振動していることがわかる．また，二つの波形が一致していることを確認
+した．今回は，システムが簡単であったため解析解を求め，プロットすることが
+できるが，システムが複雑であると解析解を求めることが困難であると考えられ
+る．
+%
+%
+\begin{thebibliography}{99}
+\addcontentsline{toc}{section}{参考文献}
+
+ \bibitem{jamming} 大屋勝敬:"車両制御特論MATLAB+Simulinkの利用法"
+\end{thebibliography}
+
 \end{document}
