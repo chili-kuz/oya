@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1468309591 "report1.dvi" "report1.pdf" "report1" 1468309592
-  "report1.dvi" 1468309591 8196 5cb8f01f0293a0921387e84eaa29b015 "latex"
+["dvipdf"] 1468495607 "report1.dvi" "report1.pdf" "report1" 1468495609
+  "report1.dvi" 1468495607 10624 b34832c16f9bfe6e4172c375fdf8457f "latex"
   (generated)
   "report1.pdf"
-["latex"] 1468309591 "report1.tex" "report1.dvi" "report1" 1468309592
+["latex"] 1468495607 "report1.tex" "report1.dvi" "report1" 1468495609
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty" 1335995445 8253 3bdedc8409aa5d290a2339be6f09af03 ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty" 1335995445 18425 775b341047ce304520cc7c11ca41392e ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1456875012 2210 5c54ab129b848a5071554186d0168766 ""
@@ -25,13 +25,13 @@
   "/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty" 1167176009 15188 91281c7ddbccfa54a8e0c3b56ab5aa72 ""
   "/usr/local/texlive/2015/texmf-dist/tex/platex/base/jarticle.cls" 1274206740 25507 0e6187042be739768097a38c29341b37 ""
   "/usr/local/texlive/2015/texmf-dist/tex/platex/base/jsize12.clo" 1274206740 9598 fa730555eee77484e4f33073895956b9 ""
-  "fig/model.jpg" 1468039735 7784 a3633858ae0c2a0eecbefbfe3a2ceb67 ""
-  "fig/oya1.eps" 1468309535 12138 027b1ee661df4a9710f539dc8bbaec1c ""
-  "fig/oya2.eps" 1468309585 42340 071ce8412c46cd911f49e73471730e55 ""
-  "fig/text2.eps" 1468223598 46657 713da7532a5535f75e675872b82a8797 ""
-  "report1.aux" 1468309591 1487 4afc0938d150891936b4aa2d9a6019a7 ""
-  "report1.tex" 1468225816 5376 3e366c1a638c4ef4103eca6fc383811d ""
+  "fig/analy.eps" 1468493677 57363 725ab089a7ef1389408eabc8ab45551f ""
+  "fig/model.jpg" 1468491499 7784 a3633858ae0c2a0eecbefbfe3a2ceb67 ""
+  "fig/multi.eps" 1468493688 98276 f8c4200f0dbbe7f24bafc9230c92cdc7 ""
+  "fig/simu.eps" 1468493663 57369 00b152fb0768d0f94874c0de77f53b0b ""
+  "report1.aux" 1468495607 1487 4afc0938d150891936b4aa2d9a6019a7 ""
+  "report1.tex" 1468495606 5726 91654dd0315f5b7c9003ce3e80bb13d7 ""
   (generated)
-  "report1.aux"
   "report1.dvi"
+  "report1.aux"
   "report1.log"

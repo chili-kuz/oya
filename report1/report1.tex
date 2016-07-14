@@ -117,19 +117,29 @@
 %
 \begin{lstlisting}[basicstyle=\ttfamily\footnotesize,frame=single,caption=作成したMATLABのプログラム]
 clc;
-clear; 
-clf; 
+clear;
+clf;
+sim('model');
+figure(1);
+x_a = -(40/17)*exp(-4*t.time)+(6/17)*cos(t.time)-(24/17)*sin(t.time)-3; 
+plot(t.time,x_a,'-',t.time,y.signals.values,'-');
+legend('Analytic value','Simulation value');
+xlabel('time [s]');
+ylabel('x(t)')
 
-t=[0:0.1:100];
-y = -(40/17)*exp(-4*t)+(6/17)*cos(t)-(24/17)*sin(t)-3;
+figure(2);
+plot(t.time,y.signals.values,'-');
+legend('Simulation value');
+xlabel('time [s]');
+ylabel('x(t)')
 
-axis([0 50 -10 100]),grid 
-xlabel('t');  
-ylabel('y');
-plot(t,y)   
+figure(3);
+x_a = -(40/17)*exp(-4*t.time)+(6/17)*cos(t.time)-(24/17)*sin(t.time)-3; 
+plot(t.time,x_a,'-');
+legend('Analytic value');
+xlabel('time [s]');
+ylabel('x(t)')
 \end{lstlisting}
-
-\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \section{得られた応答}
@@ -142,14 +152,14 @@ plot(t,y)
 \begin{figure}[htbp]
   \begin{center} 
    \subfigure[解析解をプロットしたもの]{
-   \includegraphics[scale=.4]{fig/oya1.eps}  
+   \includegraphics[scale=.55]{fig/analy.eps}  
      \label{fig:kaiseki}
   }
   %
   \hfill
   %
   \subfigure[Matlab/Simulinkでシミュレーションした結果]{
-   \includegraphics[scale=.4]{fig/oya2.eps}
+   \includegraphics[scale=.55]{fig/simu.eps}
    \label{fig:simu}
   }
   \end{center}
@@ -157,9 +167,9 @@ plot(t,y)
   \label{fig:output}
 \end{figure}
 %
-\begin{figure}[hbp]
+\begin{figure}[bp]
  \begin{center}
-  \includegraphics[width = 150 mm]{fig/text2.eps}
+  \includegraphics[scale=.9]{fig/multi.eps}
  \end{center}
  \caption{Matlab/Simulinkによるシミュレーション結果と解析解のプロットとの比較}
  \label{fig:text2}
