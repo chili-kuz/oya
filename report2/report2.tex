@@ -70,7 +70,7 @@
  a = 3 ,\ b = -6 , \ c = 2 
 \end{equation}
 %
-である．また理想モデルは，
+である．また，理想モデルは，
 \begin{equation}
  \dot{x}_d(t) = -4x_d(t)+r_d(t)
 \end{equation}
@@ -78,7 +78,7 @@
 \begin{equation}
  \tilde{x}(t) = x(t) - x_d(t) 
 \end{equation}
-おくと追従誤差方程式は，
+とおくと追従誤差方程式は，
 \begin{eqnarray}
  \dot{\tilde{x}}(t) & = & \dot{x}(t) - \dot{x}_d(t) \\
  & = & ax^3(t) + b \cos 2t + c(x^2(t)+1)u(t) - \dot{x}_d(t)
@@ -125,12 +125,13 @@
 %
 とすると，誤差追従方程式は，
 %
-\begin{eqnarray}
- \dot{\tilde{x}}(t) &=& ax^3(t) + b \cos 2t - \dot{x}_d(t) -c\hat{\alpha}x^3(t) -c\hat{\beta}\cos 2t
-  +c\hat{\gamma}\dot{x}_d(t) - c\delta \bigl\{x^2(t) + 1 \bigr\} \tilde{x}(t)\\
-  &=&c\tilde{\alpha}x^3(t) +c\tilde{\beta}\cos 2t
+\begin{multline}
+ \dot{\tilde{x}}(t) = ax^3(t) + b \cos 2t - \dot{x}_d(t) -c\hat{\alpha}x^3(t) -c\hat{\beta}\cos 2t
+  +c\hat{\gamma}\dot{x}_d(t) - c\delta \bigl\{x^2(t) + 1 \bigr\}
+ \tilde{x}(t) \\
+ + c\tilde{\alpha}x^3(t) +c\tilde{\beta}\cos 2t
   -c\tilde{\gamma}\dot{x}_d(t) - c\delta \bigl\{x^2(t)+1 \bigr\}\tilde{x}(t)
-\end{eqnarray}
+\end{multline}
 となる．エネルギー関数を
 \begin{equation}
  V(t) = \tilde{x}^2(t) + \eta^{-1}_{\alpha}c\tilde{\alpha}^2+\eta^{-1}_{\beta}c\tilde{\beta}^2+\eta^{-1}_{\gamma}c\tilde{\gamma}^2
@@ -147,14 +148,14 @@ $\eta_{\alpha},\eta_{\beta},\eta_{\gamma}$は推定ゲインで
 \end{equation}
 %
 より
-\begin{eqnarray}
-   \dot{V}(t)&=& 2\tilde{x}(t)\bigl[ c\tilde{\alpha}x^3(t) +c\tilde{\beta}\cos 2t
+\begin{multline}
+   \dot{V}(t)= 2\tilde{x}(t)\bigl[ c\tilde{\alpha}x^3(t) +c\tilde{\beta}\cos 2t
   -c\tilde{\gamma}\dot{x}_d(t) - c\delta \bigl\{x^2(t)+1\bigr\}
  \tilde{x}(t)\bigr]\\ 
-& & + 2\eta^{-1}_{\alpha}c\tilde{\alpha}\dot{\tilde{\alpha}}
+ + 2\eta^{-1}_{\alpha}c\tilde{\alpha}\dot{\tilde{\alpha}}
  +2\eta^{-1}_{\beta}c\tilde{\beta}\dot{\tilde{\beta}} +
   2\eta^{-1}_{\gamma}c\tilde{\gamma}\dot{\tilde{\gamma}} 
-\end{eqnarray}
+\end{multline}
 %
 となる．ここで，
 \begin{eqnarray}
@@ -197,12 +198,16 @@ $\eta_{\alpha},\eta_{\beta},\eta_{\gamma}$は推定ゲインで
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{シミュレーション}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-simulinkで構成したモデルを示す．
+Simulinkで構成したモデルを以下にそれぞれ示す．システムの全体
+を図\ref{fig:zentai}に，理想モデルを図\ref{fig:ideal}に，制御対象を図\ref{fig:System}に，制御入力を図
+\ref{fig:input}に示す．
+また，図\ref{fig:alpha} - \ref{fig:gamma}に$\alpha,\beta,\gamma$の推定器を
+示し，図\ref{fig:delta}に$\delta$に関するサブシステムを示す．
 %
 \begin{figure}[htb]
     \begin{center}
        \includegraphics[width=170mm]{fig/zentai.eps}
-        \caption{構成したモデル}
+        \caption{構成したモデルの全体図}
         \label{fig:zentai}
     \end{center}
  \end{figure}
@@ -228,8 +233,8 @@ simulinkで構成したモデルを示す．
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=100mm]{fig/input.eps}
-        \caption{入力}
+       \includegraphics[width=150mm]{fig/input.eps}
+        \caption{入力$u(t)$}
         \label{fig:input}
     \end{center}
  \end{figure}
@@ -238,7 +243,7 @@ simulinkで構成したモデルを示す．
 \begin{figure}[htb]
     \begin{center}
        \includegraphics[width=100mm]{fig/alpha.eps}
-        \caption{$\alpha$}
+        \caption{$\hat{\alpha}$の推定器}
         \label{fig:alpha}
     \end{center}
  \end{figure}
@@ -247,7 +252,7 @@ simulinkで構成したモデルを示す．
 \begin{figure}[htb]
     \begin{center}
        \includegraphics[width=100mm]{fig/beta.eps}
-        \caption{$\beta$}
+        \caption{$\hat{\beta}$の推定器}
         \label{fig:beta}
     \end{center}
  \end{figure}
@@ -256,7 +261,7 @@ simulinkで構成したモデルを示す．
 \begin{figure}[htb]
     \begin{center}
        \includegraphics[width=100mm]{fig/gamma.eps}
-        \caption{$\gamma$}
+        \caption{$\hat{\gamma}$の推定器}
         \label{fig:gamma}
     \end{center}
  \end{figure}
@@ -265,7 +270,7 @@ simulinkで構成したモデルを示す．
 \begin{figure}[htb]
     \begin{center}
        \includegraphics[width=100mm]{fig/delta.eps}
-        \caption{$\delta$}
+        \caption{$\delta$に関するサブシステム}
         \label{fig:delta}
     \end{center}
  \end{figure}
