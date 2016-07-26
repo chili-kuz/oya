@@ -184,7 +184,7 @@ $\eta_{\alpha},\eta_{\beta},\eta_{\gamma}$は推定ゲインで
   \dot{\hat{\theta}}(t)
   &=&
   \begin{pmatrix}
-	 \tilde{\alpha}\\ \tilde{\beta}\\ \tilde{\gamma}\\
+	 \dot{\hat{\alpha}}\\ \dot{\hat{\beta}}\\ \dot{\hat{\gamma}}\\
   \end{pmatrix}
   =
   \begin{pmatrix}
@@ -197,10 +197,86 @@ $\eta_{\alpha},\eta_{\beta},\eta_{\gamma}$は推定ゲインで
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{シミュレーション}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+simulinkで構成したモデルを示す．
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/zentai.eps}
+        \caption{構成したモデル}
+        \label{fig:zentai}
+    \end{center}
+ \end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=100mm]{fig/ideal.eps}
+        \caption{理想モデル}
+        \label{fig:ideal}
+    \end{center}
+ \end{figure}
+ %
+ %
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=100mm]{fig/System.eps}
+        \caption{制御対象}
+        \label{fig:System}
+    \end{center}
+ \end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=100mm]{fig/input.eps}
+        \caption{入力}
+        \label{fig:input}
+    \end{center}
+ \end{figure}
+ %
+ %
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=100mm]{fig/alpha.eps}
+        \caption{$\alpha$}
+        \label{fig:alpha}
+    \end{center}
+ \end{figure}
+ %
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=100mm]{fig/beta.eps}
+        \caption{$\beta$}
+        \label{fig:beta}
+    \end{center}
+ \end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=100mm]{fig/gamma.eps}
+        \caption{$\gamma$}
+        \label{fig:gamma}
+    \end{center}
+ \end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=100mm]{fig/delta.eps}
+        \caption{$\delta$}
+        \label{fig:delta}
+    \end{center}
+ \end{figure}
+%
 
+
+ 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{$r_d(t)=4$の場合}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$の場合}
