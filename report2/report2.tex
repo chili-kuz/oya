@@ -204,7 +204,7 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 また，図\ref{fig:alpha} - \ref{fig:gamma}に$\alpha,\beta,\gamma$の推定器を
 示し，図\ref{fig:delta}に$\delta$に関するサブシステムを示す．
 %
-\begin{figure}[htb]
+\begin{figure}[b]
     \begin{center}
        \includegraphics[width=170mm]{fig/zentai.eps}
         \caption{構成したモデルの全体図}
@@ -213,7 +213,7 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
  \end{figure}
 %
 %
-\begin{figure}[htb]
+\begin{figure}[tb]
     \begin{center}
        \includegraphics[width=100mm]{fig/ideal.eps}
         \caption{理想モデル}
@@ -222,18 +222,18 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
  \end{figure}
  %
  %
-\begin{figure}[htb]
+\begin{figure}[tb]
     \begin{center}
-       \includegraphics[width=100mm]{fig/System.eps}
+       \includegraphics[width=120mm]{fig/System.eps}
         \caption{制御対象}
         \label{fig:System}
     \end{center}
  \end{figure}
 %
 %
-\begin{figure}[htb]
+\begin{figure}[tb]
     \begin{center}
-       \includegraphics[width=150mm]{fig/input.eps}
+       \includegraphics[width=170mm]{fig/input.eps}
         \caption{入力$u(t)$}
         \label{fig:input}
     \end{center}
@@ -242,7 +242,7 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
  %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=100mm]{fig/alpha.eps}
+       \includegraphics[width=105mm]{fig/alpha.eps}
         \caption{$\hat{\alpha}$の推定器}
         \label{fig:alpha}
     \end{center}
@@ -251,7 +251,7 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=100mm]{fig/beta.eps}
+       \includegraphics[width=105mm]{fig/beta.eps}
         \caption{$\hat{\beta}$の推定器}
         \label{fig:beta}
     \end{center}
@@ -260,7 +260,7 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=100mm]{fig/gamma.eps}
+       \includegraphics[width=105mm]{fig/gamma.eps}
         \caption{$\hat{\gamma}$の推定器}
         \label{fig:gamma}
     \end{center}
@@ -269,31 +269,33 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=100mm]{fig/delta.eps}
+       \includegraphics[width=70mm]{fig/delta.eps}
         \caption{$\delta$に関するサブシステム}
         \label{fig:delta}
     \end{center}
  \end{figure}
  %
- 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{$r_d(t)=4$の場合}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 （\ref{equ:ideal_model}）式にて$r_d(t)=4$とした場合，シミュレーションし
-た結果を示す．ただし，$\eta_\alpha=\eta_\beta=\eta_\gamma=1$とした．
+た結果を図\ref{fig:x_rd4}示す．また，図\ref{fig:x_tilde_rd4}に追従誤差
+$\tilde{x}(t)$，図\ref{fig:u_rd4}に入力$u(t)$を，図\ref{fig:alpha_h_rd4}
+- \ref{fig:gamma_h_rd4}に
+$\hat{\alpha},\hat{\beta},\hat{\gamma}$を示す．ただし，$\eta_\alpha=\eta_\beta=\eta_\gamma=1$とした．
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/x_rd4.eps}
+       \includegraphics[width=140mm]{fig/x_rd4.eps}
         \caption{$r_d(t)=4$のときの理想軌道と$x$（$\delta=1,10,100$）の比較}
         \label{fig:x_rd4}
     \end{center}
 \end{figure}
 %
 %
-\begin{figure}[htb]
+\begin{figure}[tb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/x_tilde_rd4.eps}
+       \includegraphics[width=140mm]{fig/x_tilde_rd4.eps}
         \caption{$r_d(t)=4$のときの$\tilde{x}$（$\delta=1,10,100$）の様子}
         \label{fig:x_tilde_rd4}
     \end{center}
@@ -302,16 +304,15 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/u_rd4.eps}
+       \includegraphics[width=140mm]{fig/u_rd4.eps}
         \caption{$r_d(t)=4$のときの$u(t)$（$\delta=1,10,100$）の様子}
         \label{fig:u_rd4}
     \end{center}
 \end{figure}
 %
-%
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/alpha_h_rd4.eps}
+       \includegraphics[width=95mm]{fig/alpha_h_rd4.eps}
         \caption{$r_d(t)=4$のときの$\hat{\alpha}$（$\delta=1,10,100$）の様子}
         \label{fig:alpha_h_rd4}
     \end{center}
@@ -320,7 +321,7 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/beta_h_rd4.eps}
+       \includegraphics[width=95mm]{fig/beta_h_rd4.eps}
         \caption{$r_d(t)=4$のときの$\hat{\beta}$（$\delta=1,10,100$）の様子}
         \label{fig:beta_h_rd4}
     \end{center}
@@ -329,7 +330,7 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/gamma_h_rd4.eps}
+       \includegraphics[width=95mm]{fig/gamma_h_rd4.eps}
         \caption{$r_d(t)=4$のときの$\hat{\gamma}$（$\delta=1,10,100$）の様子}
         \label{fig:gamma_h_rd4}
     \end{center}
@@ -339,10 +340,12 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$の場合}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$r_d(t)=4$の場合と同様にシュミュレーションした結果を図\ref{fig:x_rdsin}
+- \ref{fig:gamma_h_rdsin}にそれぞれ示す．
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/x_rdsin.eps}
+       \includegraphics[width=140mm]{fig/x_rdsin.eps}
         \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの理想軌道と$x$（$\delta=1,10,100$）の比較}
         \label{fig:x_rdsin}
     \end{center}
@@ -351,7 +354,7 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/x_tilde_rdsin.eps}
+       \includegraphics[width=140mm]{fig/x_tilde_rdsin.eps}
         \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$\tilde{x}$（$\delta=1,10,100$）の様子}
         \label{fig:x_tilde_rdsin}
     \end{center}
@@ -360,7 +363,7 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/u_rdsin.eps}
+       \includegraphics[width=140mm]{fig/u_rdsin.eps}
         \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$u(t)$（$\delta=1,10,100$）の様子}
         \label{fig:u_rdsin}
     \end{center}
@@ -369,25 +372,25 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/alpha_h_rdsin.eps}
+       \includegraphics[width=85mm]{fig/alpha_h_rdsin.eps}
         \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$\hat{\alpha}$（$\delta=1,10,100$）の様子}
-        \label{fig:alpha_h_rd4}
+        \label{fig:alpha_h_rdsin}
     \end{center}
 \end{figure}
 %
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/beta_h_rdsin.eps}
+       \includegraphics[width=85mm]{fig/beta_h_rdsin.eps}
         \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$\hat{\beta}$（$\delta=1,10,100$）の様子}
-        \label{fig:beta_h_rd4}
+        \label{fig:beta_h_rdsin}
     \end{center}
 \end{figure}
 %
 %
 \begin{figure}[htb]
     \begin{center}
-       \includegraphics[width=170mm]{fig/gamma_h_rdsin.eps}
+       \includegraphics[width=85mm]{fig/gamma_h_rdsin.eps}
         \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$\hat{\gamma}$（$\delta=1,10,100$）の様子}
         \label{fig:gamma_h_rdsin}
     \end{center}
