@@ -71,7 +71,7 @@
 \end{equation}
 %
 である．また，理想モデルは，
-\begin{equation}
+\begin{equation}\label{equ:ideal_model}
  \dot{x}_d(t) = -4x_d(t)+r_d(t)
 \end{equation}
 である．ここで，
@@ -274,20 +274,125 @@ Simulinkで構成したモデルを以下にそれぞれ示す．システムの
         \label{fig:delta}
     \end{center}
  \end{figure}
-%
-
-
+ %
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{$r_d(t)=4$の場合}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+（\ref{equ:ideal_model}）式にて$r_d(t)=4$とした場合，シミュレーションし
+た結果を示す．ただし，$\eta_\alpha=\eta_\beta=\eta_\gamma=1$とした．
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/x_rd4.eps}
+        \caption{$r_d(t)=4$のときの理想軌道と$x$（$\delta=1,10,100$）の比較}
+        \label{fig:x_rd4}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/x_tilde_rd4.eps}
+        \caption{$r_d(t)=4$のときの$\tilde{x}$（$\delta=1,10,100$）の様子}
+        \label{fig:x_tilde_rd4}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/u_rd4.eps}
+        \caption{$r_d(t)=4$のときの$u(t)$（$\delta=1,10,100$）の様子}
+        \label{fig:u_rd4}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/alpha_h_rd4.eps}
+        \caption{$r_d(t)=4$のときの$\hat{\alpha}$（$\delta=1,10,100$）の様子}
+        \label{fig:alpha_h_rd4}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/beta_h_rd4.eps}
+        \caption{$r_d(t)=4$のときの$\hat{\beta}$（$\delta=1,10,100$）の様子}
+        \label{fig:beta_h_rd4}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/gamma_h_rd4.eps}
+        \caption{$r_d(t)=4$のときの$\hat{\gamma}$（$\delta=1,10,100$）の様子}
+        \label{fig:gamma_h_rd4}
+    \end{center}
+\end{figure}
+%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$の場合}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/x_rdsin.eps}
+        \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの理想軌道と$x$（$\delta=1,10,100$）の比較}
+        \label{fig:x_rdsin}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/x_tilde_rdsin.eps}
+        \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$\tilde{x}$（$\delta=1,10,100$）の様子}
+        \label{fig:x_tilde_rdsin}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/u_rdsin.eps}
+        \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$u(t)$（$\delta=1,10,100$）の様子}
+        \label{fig:u_rdsin}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/alpha_h_rdsin.eps}
+        \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$\hat{\alpha}$（$\delta=1,10,100$）の様子}
+        \label{fig:alpha_h_rd4}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/beta_h_rdsin.eps}
+        \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$\hat{\beta}$（$\delta=1,10,100$）の様子}
+        \label{fig:beta_h_rd4}
+    \end{center}
+\end{figure}
+%
+%
+\begin{figure}[htb]
+    \begin{center}
+       \includegraphics[width=170mm]{fig/gamma_h_rdsin.eps}
+        \caption{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$のときの$\hat{\gamma}$（$\delta=1,10,100$）の様子}
+        \label{fig:gamma_h_rdsin}
+    \end{center}
+\end{figure}
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{考察}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%

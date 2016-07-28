@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.23)  26 JUL 2016 17:41
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.23)  28 JUL 2016 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -168,7 +168,14 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(./report2.aux)
+(./report2.aux
+
+LaTeX Warning: Label `fig:alpha_h_rd4' multiply defined.
+
+
+LaTeX Warning: Label `fig:beta_h_rd4' multiply defined.
+
+)
 \openout1 = `report2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -217,22 +224,56 @@ File: fig/gamma.eps Graphic file (type eps)
  <fig/gamma.eps>
 File: fig/delta.eps Graphic file (type eps)
  <fig/delta.eps>
-[4]
-Overfull \vbox (85.52788pt too high) has occurred while \output is active []
+File: fig/x_rd4.eps Graphic file (type eps)
 
+<fig/x_rd4.eps>
+File: fig/x_tilde_rd4.eps Graphic file (type eps)
+ <fig/x_tilde_rd4.eps>
+File: fig/u_rd4.eps Graphic file (type eps)
+ <fig/u_rd4.eps>
+File: fig/alpha_h_rd4.eps Graphic file (type eps)
+ <fig/alpha_h_rd4.eps>
+File: fig/beta_h_rd4.eps Graphic file (type eps)
 
-[5]
+<fig/beta_h_rd4.eps>
+File: fig/gamma_h_rd4.eps Graphic file (type eps)
+ <fig/gamma_h_rd4.eps> [4]
+File: fig/x_rdsin.eps Graphic file (type eps)
+ <fig/x_rdsin.eps> [5]
 
 LaTeX Warning: Text page 6 contains only floats.
 
-[6] [7] (./report2.aux) ) 
+[6]
+
+LaTeX Warning: Text page 7 contains only floats.
+
+[7]
+File: fig/x_tilde_rdsin.eps Graphic file (type eps)
+ <fig/x_tilde_rdsin.eps>
+File: fig/u_rdsin.eps Graphic file (type eps)
+ <fig/u_rdsin.eps>
+File: fig/alpha_h_rdsin.eps Graphic file (type eps)
+ <fig/alpha_h_rdsin.eps>
+File: fig/beta_h_rdsin.eps Graphic file (type eps)
+
+<fig/beta_h_rdsin.eps>
+File: fig/gamma_h_rdsin.eps Graphic file (type eps)
+ <fig/gamma_h_rdsin.eps>
+Overfull \vbox (59.10123pt too high) has occurred while \output is active []
+
+
+[8] [9] [10] [11] [12] [13] [14] [15] [16] (./report2.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2829 strings out of 493717
- 38024 string characters out of 6150720
- 109853 words of memory out of 5000000
- 6377 multiletter control sequences out of 15000+600000
+ 2864 strings out of 493717
+ 38574 string characters out of 6150720
+ 109996 words of memory out of 5000000
+ 6400 multiletter control sequences out of 15000+600000
  16360 words of font info for 64 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,16n,32p,239b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,16n,32p,280b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report2.dvi (7 pages, 12144 bytes).
+Output written on report2.dvi (16 pages, 16236 bytes).

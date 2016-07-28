@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1469522473 "report2.dvi" "report2.pdf" "report2" 1469522475
-  "report2.dvi" 1469522473 12144 b0ed2079a7aef478dbf800113074ae42 "latex"
+["dvipdf"] 1469672450 "report2.dvi" "report2.pdf" "report2" 1469672457
+  "report2.dvi" 1469672450 16236 e916d6bc0c7d3cebf3b99ace12649206 "latex"
   (generated)
   "report2.pdf"
-["latex"] 1469522473 "report2.tex" "report2.dvi" "report2" 1469522475
+["latex"] 1469672450 "report2.tex" "report2.dvi" "report2" 1469672457
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty" 1335995445 8253 3bdedc8409aa5d290a2339be6f09af03 ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty" 1335995445 18425 775b341047ce304520cc7c11ca41392e ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1456875012 2210 5c54ab129b848a5071554186d0168766 ""
@@ -27,14 +27,26 @@
   "/usr/local/texlive/2015/texmf-dist/tex/platex/base/jsize12.clo" 1274206740 9598 fa730555eee77484e4f33073895956b9 ""
   "fig/System.eps" 1469516677 37721 8aa72e79dab7533428d71625e6058f9c ""
   "fig/alpha.eps" 1469517208 36506 99f849a099b1641c18b01c4614d25a25 ""
+  "fig/alpha_h_rd4.eps" 1469599587 82036 1c33bf1def2c821d1309a9add88c3199 ""
+  "fig/alpha_h_rdsin.eps" 1469599368 85468 09a9919fbbbdba6fc56971132f6f265e ""
   "fig/beta.eps" 1469517307 34517 6c58ce0280d23ac96e7e7480dbc1ded1 ""
+  "fig/beta_h_rd4.eps" 1469599614 79028 ba8f876012e96f8f45137bf33b396171 ""
+  "fig/beta_h_rdsin.eps" 1469599406 82460 7bc6ecdeefcdd962c2083c855060476a ""
   "fig/delta.eps" 1469517479 18999 9ec113c4853da2f9a28c389279fdf629 ""
   "fig/gamma.eps" 1469517395 33099 3b73804eafa10791f7461b17101d2062 ""
+  "fig/gamma_h_rd4.eps" 1469599649 79755 b7d16e551163cb781cea2b9fbf0bc6f7 ""
+  "fig/gamma_h_rdsin.eps" 1469599450 84139 14f3ff3f2d7a031e93ccbb3ee039cda8 ""
   "fig/ideal.eps" 1469516132 22571 cfff714db6e762c6c61294c79f4b8969 ""
   "fig/input.eps" 1469517021 68149 526cdc536d8ecccb7f3f5124279a7e02 ""
+  "fig/u_rd4.eps" 1469597603 81072 e3aed8001798fd7664b3e343e86acc6d ""
+  "fig/u_rdsin.eps" 1469599289 85199 8ad49a5af5767141dd7cc33a89b80801 ""
+  "fig/x_rd4.eps" 1469597296 130570 d66559d93195635210ddb5fcace4786a ""
+  "fig/x_rdsin.eps" 1469599098 137371 08861b248fd693a563b2581b5e30849b ""
+  "fig/x_tilde_rd4.eps" 1469597484 80918 864c622b6959a179e04cc330fe68a314 ""
+  "fig/x_tilde_rdsin.eps" 1469599328 85353 6eb9b6bae5a1c8e5ff05100c96b5663a ""
   "fig/zentai.eps" 1469516487 61143 7cb95a30b37a03616416be24cc4a91b2 ""
-  "report2.aux" 1469522473 1967 7d8a173b24382871acabd3359968a8e0 ""
-  "report2.tex" 1469522472 8741 080672a064778d300bf7b4ca3749d8c5 ""
+  "report2.aux" 1469672450 4846 4d31135a947fb320417f85062b1c06fc ""
+  "report2.tex" 1469672448 12092 c3c4bde7d8ba6bd1a8398e06ac64f944 ""
   (generated)
   "report2.log"
   "report2.dvi"
