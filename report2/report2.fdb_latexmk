@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1469781916 "report2.dvi" "report2.pdf" "report2" 1469781924
-  "report2.dvi" 1469781916 18076 2854e1fb31ace5ec700f0d1593944f21 "latex"
+["dvipdf"] 1470035176 "report2.dvi" "report2.pdf" "report2" 1470035186
+  "report2.dvi" 1470035176 19868 25bcfde97b12b29a8b4191c10a91a3a4 "latex"
   (generated)
   "report2.pdf"
-["latex"] 1469781916 "report2.tex" "report2.dvi" "report2" 1469781924
+["latex"] 1470035176 "report2.tex" "report2.dvi" "report2" 1470035186
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty" 1335995445 8253 3bdedc8409aa5d290a2339be6f09af03 ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty" 1335995445 18425 775b341047ce304520cc7c11ca41392e ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1456875012 2210 5c54ab129b848a5071554186d0168766 ""
@@ -45,12 +45,13 @@
   "fig/x_rd4_Etab.eps" 1469694163 80304 7c82e1f8e42fafccaa1d992ee6dca597 ""
   "fig/x_rd4_Etag.eps" 1469694222 41082 c4619125d5e5e9dabe9cb609476ab7fc ""
   "fig/x_rd4_Etag_2.eps" 1469694406 22181 416f5136a3101393f026f11c67383a97 ""
+  "fig/x_rd4_eta_reform.eps" 1470034364 56342 6599d6118f7f9967023d2b3515a9abba ""
   "fig/x_rdsin.eps" 1469599098 137371 08861b248fd693a563b2581b5e30849b ""
   "fig/x_tilde_rd4.eps" 1469597484 80918 864c622b6959a179e04cc330fe68a314 ""
   "fig/x_tilde_rdsin.eps" 1469599328 85353 6eb9b6bae5a1c8e5ff05100c96b5663a ""
   "fig/zentai.eps" 1469516487 61143 7cb95a30b37a03616416be24cc4a91b2 ""
-  "report2.aux" 1469781916 5616 6f0f73740682dc4467d5dc3dd824f35b ""
-  "report2.tex" 1469781914 13956 786da9161bb2f3fa7df1c1762ffceaaa ""
+  "report2.aux" 1470035176 5867 ad564111fe77b1004d221e987351068d ""
+  "report2.tex" 1470035175 15300 9b9b691f52cca081a3ccb245e928f8e2 ""
   (generated)
   "report2.log"
   "report2.aux"

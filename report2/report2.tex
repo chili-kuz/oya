@@ -403,9 +403,9 @@ $r_d(t)=4$の場合と同様にシュミュレーションした結果を図\ref
 くすればするほど，理想軌道に対する追従性能が向上していることがわかる．し
 かし，大きくし過ぎると追従性能は向上しているが，小さく振動していることが確認で
 きた．次に，$\delta=1$とし，$\eta_\alpha,\eta_\beta,\eta_\gamma$のうちひ
-とつだけ値を100にしたときの応答を示す．ただし，$r_d(t)=4$とした．
+とつだけ値を変化させたときの応答を示す．ただし，$r_d(t)=4$とした．
 %
-\begin{figure}[htb]
+\begin{figure}[b]
     \begin{center}
        \includegraphics[width=140mm]{fig/x_rd4_Etaa.eps}
         \caption{$r_d(t)=4$のときの$x(t)$($\eta_\alpha$を変化させたとき)の様子}
@@ -418,7 +418,7 @@ $r_d(t)=4$の場合と同様にシュミュレーションした結果を図\ref
     \begin{center}
        \includegraphics[width=140mm]{fig/x_rd4_Etab.eps}
         \caption{$r_d(t)=4$のときの$x(t)$($\eta_\beta$を変化させたとき)の様子}
-        \label{fig:x_rd4etaa}
+        \label{fig:x_rd4etab}
     \end{center}
 \end{figure}
 %
@@ -427,7 +427,7 @@ $r_d(t)=4$の場合と同様にシュミュレーションした結果を図\ref
     \begin{center}
        \includegraphics[width=140mm]{fig/x_rd4_Etag.eps}
         \caption{$r_d(t)=4$のときの$x(t)$($\eta_\gamma$を変化させたとき)の様子}
-        \label{fig:x_rd4etab}
+        \label{fig:x_rd4etag}
     \end{center}
 \end{figure}
 %
@@ -435,13 +435,38 @@ $r_d(t)=4$の場合と同様にシュミュレーションした結果を図\ref
 \begin{figure}[htb]
     \begin{center}
 	 \includegraphics[width=140mm]{fig/x_rd4_Etag_2.eps}
-        \caption{$r_d(t)=4$のときの$x(t)$($\eta_\gamma$を変化させたとき)の様子}
+        \caption{図\ref{fig:x_rd4etag}の拡大図（時間$t=0〜1[s]$について）}
         \label{fig:x_rd4etag2}
     \end{center}
 \end{figure}
 %
+図\ref{fig:x_rd4etaa}より$\eta_\alpha$を増加させると追従性能が向上するこ
+とがわかる．また，図\ref{fig:x_rd4etab}より，$\eta_\beta$を増加させると，
+応答が発散することがわかった．最後に，図
+\ref{fig:x_rd4etag},\ref{fig:x_rd4etag2}より，$\eta_\gamma$を増加させる
+と定常状態においての追従性能は変わらなかったが，過渡状態（特に時間$t=0〜1[s]$）
+において，$\eta_\gamma$が増加すると追従性能が上がることがわかった．最後
+に，$\eta_\alpha=1000,\eta_\beta=1000,\eta_\gamma=31622$とした場合と，
+$\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたものを図
+\ref{fig:x_rd4_eta_reform}に示す．図\ref{fig:x_rd4_eta_reform}を見ると，
+推定ゲイン$\eta$を調整することでより良い制御性能が得られることがわかった．
+ただし，ここでは
+$\eta_\beta=\eta_\alpha,\eta_\gamma=\eta^\frac{3}{2}_\alpha$と設定した．
+%
+\begin{figure}[htb]
+    \begin{center}
+	 \includegraphics[width=140mm]{fig/x_rd4_eta_reform.eps}
+        \caption{$\eta_\alpha=1000,\eta_\beta=1000,\eta_\gamma=31622$とした場合と$\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較}
+        \label{fig:x_rd4_eta_reform}
+    \end{center}
+\end{figure}
+%
+%
+%
+%
+\newpage
 \begin{thebibliography}{99}
-\addcontentsline{toc}{section}{参考文献}
+ \addcontentsline{toc}{section}{参考文献}
 
  \bibitem{jamming} 大屋勝敬:"車両制御特論MATLAB+Simulinkの利用法"
 \end{thebibliography}

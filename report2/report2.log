@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.23)  29 JUL 2016 17:45
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.23)  1 AUG 2016 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -168,11 +168,7 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(./report2.aux
-
-LaTeX Warning: Label `fig:x_rd4etaa' multiply defined.
-
-)
+(./report2.aux)
 \openout1 = `report2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -268,7 +264,9 @@ File: fig/x_rd4_Etag.eps Graphic file (type eps)
  <fig/x_rd4_Etag.eps>
 File: fig/x_rd4_Etag_2.eps Graphic file (type eps)
 
-<fig/x_rd4_Etag_2.eps> [9]
+<fig/x_rd4_Etag_2.eps>
+File: fig/x_rd4_eta_reform.eps Graphic file (type eps)
+ <fig/x_rd4_eta_reform.eps> [9]
 
 LaTeX Warning: Text page 10 contains only floats.
 
@@ -280,18 +278,18 @@ LaTeX Warning: Text page 11 contains only floats.
 
 LaTeX Warning: Text page 13 contains only floats.
 
-[13] [14] (./report2.aux)
+[13]
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Text page 14 contains only floats.
 
- ) 
+[14] [15] (./report2.aux) ) 
 Here is how much of TeX's memory you used:
- 2877 strings out of 493717
- 38789 string characters out of 6150720
- 110042 words of memory out of 5000000
- 6409 multiletter control sequences out of 15000+600000
+ 2881 strings out of 493717
+ 38870 string characters out of 6150720
+ 110023 words of memory out of 5000000
+ 6412 multiletter control sequences out of 15000+600000
  16360 words of font info for 64 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  27i,16n,32p,280b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report2.dvi (14 pages, 18076 bytes).
+Output written on report2.dvi (15 pages, 19868 bytes).
