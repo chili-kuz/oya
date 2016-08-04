@@ -1,15 +1,15 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.23)  2 AUG 2016 10:31
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.6.22)  4 AUG 2016 20:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **report2.tex
 (./report2.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2016/03/31> patch level 0)
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jarticle.cls
+pLaTeX2e <2016/06/10>+1 (based on LaTeX2e <2016/03/31> patch level 1)
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
 \c@@paper=\count81
-(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jsize12.clo
+(/usr/local/texlive/2016/texmf-dist/tex/platex/base/jsize12.clo
 File: jsize12.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
 )
 \c@part=\count82
@@ -24,61 +24,61 @@ File: jsize12.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
 \belowcaptionskip=\skip42
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 601.
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 593.
 \toclineskip=\dimen118
 \@lnumwidth=\dimen119
 \bibindent=\dimen120
 \heisei=\count90
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/06/02 v1.0s Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 95.
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2015/11/04 v4.07 LaTeX color/graphics driver for dvipdfmx (T
+(/usr/local/texlive/2016/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+File: dvipdfmx.def 2016/04/06 v4.08 LaTeX color/graphics driver for dvipdfmx (T
 eX Live/ChoF)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen123
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen124
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -119,7 +119,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip46
 \subfigcapskip=\skip47
@@ -135,15 +135,15 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip50
 \subfig@bottom=\skip51
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count107
 \lst@gtempboxa=\box43
 \lst@token=\toks21
@@ -157,13 +157,13 @@ Excluding comment 'comment')
 \lst@lineno=\count112
 \lst@maxwidth=\dimen137
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count113
 \lst@skipnumbers=\count114
 \lst@framebox=\box44
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
@@ -266,7 +266,12 @@ File: fig/x_rd4_Etag_2.eps Graphic file (type eps)
 
 <fig/x_rd4_Etag_2.eps>
 File: fig/x_rd4_eta_reform.eps Graphic file (type eps)
- <fig/x_rd4_eta_reform.eps> [9]
+ <fig/x_rd4_eta_reform.eps>
+File: fig/eta_hikaku.eps Graphic file (type eps)
+ <fig/eta_hikaku.eps>
+File: fig/eta_hikaku_k.eps Graphic file (type eps)
+
+<fig/eta_hikaku_k.eps> [9]
 
 LaTeX Warning: Text page 10 contains only floats.
 
@@ -282,14 +287,18 @@ LaTeX Warning: Text page 13 contains only floats.
 
 LaTeX Warning: Text page 14 contains only floats.
 
-[14] [15] (./report2.aux) ) 
+[14]
+
+LaTeX Warning: Text page 15 contains only floats.
+
+[15] [16] (./report2.aux) ) 
 Here is how much of TeX's memory you used:
- 2881 strings out of 493717
- 38870 string characters out of 6150720
- 110023 words of memory out of 5000000
- 6412 multiletter control sequences out of 15000+600000
+ 2897 strings out of 493683
+ 39129 string characters out of 6149647
+ 110860 words of memory out of 5000000
+ 6447 multiletter control sequences out of 15000+600000
  16360 words of font info for 64 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  27i,16n,32p,280b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report2.dvi (15 pages, 19816 bytes).
+Output written on report2.dvi (16 pages, 20676 bytes).
