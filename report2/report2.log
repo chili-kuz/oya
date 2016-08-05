@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.6.22)  4 AUG 2016 20:45
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.6.22)  5 AUG 2016 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -304,7 +304,9 @@ LaTeX Warning: Text page 14 contains only floats.
 
 LaTeX Warning: Text page 15 contains only floats.
 
-[15] [16] [17] [18] (./report2.aux) ) 
+[15] [16] [17] [18] [19
+
+] (./report2.aux) ) 
 Here is how much of TeX's memory you used:
  2909 strings out of 493683
  39354 string characters out of 6149647
@@ -314,4 +316,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  27i,16n,32p,280b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report2.dvi (18 pages, 21812 bytes).
+Output written on report2.dvi (19 pages, 21896 bytes).
