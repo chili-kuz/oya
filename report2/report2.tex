@@ -125,14 +125,16 @@
 %
 とすると，誤差追従方程式は，
 %
-\begin{multline}
- \dot{\tilde{x}}(t) = ax^3(t) + b \cos 2t - \dot{x}_d(t) -c\hat{\alpha}x^3(t) -c\hat{\beta}\cos 2t
+\begin{eqnarray}
+ \dot{\tilde{x}}(t)& =& ax^3(t) + b \cos 2t - \dot{x}_d(t) -c\hat{\alpha}x^3(t) -c\hat{\beta}\cos 2t
   +c\hat{\gamma}\dot{x}_d(t) - c\delta \bigl\{x^2(t) + 1 \bigr\}
- \tilde{x}(t) \\
- + c\tilde{\alpha}x^3(t) +c\tilde{\beta}\cos 2t
+ \tilde{x}(t)\\
+ &=&c\tilde{\alpha}x^3(t) +c\tilde{\beta}\cos 2t
   -c\tilde{\gamma}\dot{x}_d(t) - c\delta \bigl\{x^2(t)+1 \bigr\}\tilde{x}(t)
-\end{multline}
-となる．エネルギー関数を
+\end{eqnarray}
+となる．ただし，
+$\tilde{\alpha}=\alpha-\hat{\alpha},\tilde{\beta}=\beta-\hat{\beta},\tilde{\gamma}=\gamma-\hat{\gamma}$
+である．エネルギー関数を
 \begin{equation}
  V(t) = \tilde{x}^2(t) + \eta^{-1}_{\alpha}c\tilde{\alpha}^2+\eta^{-1}_{\beta}c\tilde{\beta}^2+\eta^{-1}_{\gamma}c\tilde{\gamma}^2
 \end{equation}
@@ -160,7 +162,7 @@ $\eta_{\alpha},\eta_{\beta},\eta_{\gamma}$は推定ゲインで
 となる．ここで，
 \begin{eqnarray}
 \dot{\tilde{\alpha}}&=&-\dot{\hat{\alpha}}=-\eta_{\alpha}\tilde{x}(t)x^3(t) \\
-\dot{\tilde{\beta}}&=&-\dot{\hat{\beta}}=-\eta_{\beta}\cos 2t \tilde{x}(t) \\
+\dot{\tilde{\beta}}&=&-\dot{\hat{\beta}}=-\eta_{\beta}\tilde{x}(t) \cos 2t\\
 \dot{\tilde{\gamma}}&=&-\dot{\hat{\gamma}}=\eta_{\gamma}\tilde{x}(t)\dot{x}_d(t)   
 \end{eqnarray}
 とすれば，
@@ -190,7 +192,7 @@ $\eta_{\alpha},\eta_{\beta},\eta_{\gamma}$は推定ゲインで
   =
   \begin{pmatrix}
    \eta_{\alpha}\tilde{x}(t)x^3(t)\\
-   \eta_{\beta}\cos 2t \tilde{x}(t)\\
+   \eta_{\beta}\tilde{x}(t)\cos 2t\\
    -\eta_{\gamma}\tilde{x}(t)\dot{x}_d(t)\\
   \end{pmatrix}
 \end{eqnarray}
@@ -296,7 +298,8 @@ $\hat{\alpha},\hat{\beta},\hat{\gamma}$を示す．ただし，$\eta_\alpha=\eta
 \begin{figure}[tb]
     \begin{center}
        \includegraphics[width=140mm]{fig/x_tilde_rd4.eps}
-        \caption{$r_d(t)=4$のときの$\tilde{x}$（$\delta=1,10,100$）の様子}
+        \caption{$r_d(t)=4$のときの$\tilde{x}$（$\delta=1,10,100$）の様
+	 子}
         \label{fig:x_tilde_rd4}
     \end{center}
 \end{figure}
@@ -340,7 +343,7 @@ $\hat{\alpha},\hat{\beta},\hat{\gamma}$を示す．ただし，$\eta_\alpha=\eta
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{$r_d(t)=4+0.5\sin 0.5t + \cos 3t - 2\sin 5t$の場合}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-$r_d(t)=4$の場合と同様にシュミュレーションした結果を図\ref{fig:x_rdsin}
+$r_d(t)=4$の場合と同様にシミュレーションした結果を図\ref{fig:x_rdsin}
 - \ref{fig:gamma_h_rdsin}にそれぞれ示す．
 %
 \begin{figure}[htb]
@@ -424,7 +427,7 @@ $\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたも�
 \begin{figure}[tb]
     \begin{center}
        \includegraphics[width=140mm]{fig/x_rd4_Etaa.eps}
-        \caption{$\eta_\alpha$を変化させたとき$x(t)$の比較($r_d(t)=4$の
+        \caption{$\eta_\alpha$を変化させたとき$x(t)$の様子($r_d(t)=4$の
 	 とき)}
         \label{fig:x_rd4etaa}
     \end{center}
@@ -434,7 +437,7 @@ $\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたも�
 \begin{figure}[ht]
     \begin{center}
        \includegraphics[width=140mm]{fig/x_tilde_etaa.eps}
-        \caption{$\eta_\alpha$を変化させたとき$\tilde{x}(t)$の比較($r_d(t)=4$の
+        \caption{$\eta_\alpha$を変化させたときの$\tilde{x}(t)$の様子($r_d(t)=4$の
 	 とき)}
         \label{fig:x_tilde_etaa}
     \end{center}
@@ -444,8 +447,7 @@ $\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたも�
 \begin{figure}[htb]
     \begin{center}
        \includegraphics[width=140mm]{fig/x_rd4_Etab.eps}
-        \caption{$\eta_\beta$を変化させたときの$x(t)$
-	 の比較($r_d(t)=4$のとき)}
+        \caption{$\eta_\beta$を変化させたときの$x(t)$の様子($r_d(t)=4$のとき)}
         \label{fig:x_rd4etab}
     \end{center}
 \end{figure}
@@ -454,8 +456,7 @@ $\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたも�
 \begin{figure}[htb]
     \begin{center}
        \includegraphics[width=140mm]{fig/x_tilde_etab.eps}
-        \caption{$\eta_\beta$を変化させたときの$\tilde{x}(t)$
-	 の比較($r_d(t)=4$のとき)}
+        \caption{$\eta_\beta$を変化させたときの$\tilde{x}(t)$の様子($r_d(t)=4$のとき)}
         \label{fig:x_tilde_etab}
     \end{center}
 \end{figure}
@@ -464,7 +465,7 @@ $\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたも�
 \begin{figure}[htb]
     \begin{center}
        \includegraphics[width=140mm]{fig/x_rd4_Etag.eps}
-	 \caption{$\eta_\gamma$を変化させたときの$x(t)$の比較($r_d(t)=4$のとき)
+	 \caption{$\eta_\gamma$を変化させたときの$x(t)$の様子$r_d(t)=4$のとき)
 	 }
         \label{fig:x_rd4etag}
     \end{center}
@@ -474,7 +475,7 @@ $\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたも�
 \begin{figure}[htb]
     \begin{center}
        \includegraphics[width=140mm]{fig/x_tilde_etag.eps}
-	 \caption{$\eta_\gamma$を変化させたときの$\tilde{x}(t)$の比較($r_d(t)=4$のとき)
+	 \caption{$\eta_\gamma$を変化させたときの$\tilde{x}(t)$の様子($r_d(t)=4$のとき)
 	 }
         \label{fig:x_tilde_etag}
     \end{center}
@@ -493,8 +494,7 @@ $\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたも�
 \begin{figure}[htb]
     \begin{center}
 	 \includegraphics[width=140mm]{fig/x_rd4_eta_reform.eps}
-	 \caption{$\eta_\alpha,\eta_\beta,\eta_\gamma$を変化させたときの
-	 $x(t)$の比較}
+	 \caption{$\eta_\alpha,\eta_\beta,\eta_\gamma$を変化させたときの$x(t)$の様子}
         \label{fig:x_rd4_eta_reform}
     \end{center}
 \end{figure}
@@ -503,8 +503,7 @@ $\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたも�
 \begin{figure}[htb]
     \begin{center}
 	 \includegraphics[width=140mm]{fig/x_tilde_eta_all.eps}
-	 \caption{$\eta_\alpha,\eta_\beta,\eta_\gamma$を変化させたときの
-	 $\tilde{x}(t)$の比較}
+	 \caption{$\eta_\alpha,\eta_\beta,\eta_\gamma$を変化させたときの$\tilde{x}(t)$の様子}
         \label{fig:x_tilde_eta_all}
     \end{center}
 \end{figure}
@@ -513,7 +512,7 @@ $\eta_\alpha=1,\eta_\beta=1,\eta_\gamma=1$としたときの比較をしたも�
 \begin{figure}[htb]
     \begin{center}
 	 \includegraphics[width=140mm]{fig/eta_hikaku.eps}
-        \caption{$\eta_\alpha,\eta_\beta,\eta_\gamma$を変化させたときの$u(t)$の比較}
+        \caption{$\eta_\alpha,\eta_\beta,\eta_\gamma$を変化させたときの$u(t)$の様子}
         \label{fig:eta_hikaku}
     \end{center}
 \end{figure}
